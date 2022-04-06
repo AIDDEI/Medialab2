@@ -234,7 +234,7 @@ footer {
 }
 
 /*Mobile view*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
     nav {
         display: block;
         width: 96vw;

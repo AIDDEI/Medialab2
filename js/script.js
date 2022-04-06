@@ -16,7 +16,7 @@ function init(){
 }
 
 function adjustVisibility(entries){
-    const mobileView = window.matchMedia("(max-width: 550px)");
+    const mobileView = window.matchMedia("(max-width: 650px)");
 
     for(let entry of entries){
         if(!mobileView.matches){
