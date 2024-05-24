@@ -1,4 +1,2 @@
-# Park 1943: The AR-Game
-Dit is de code van de website: https://aiddei.github.io/park1943/
-<br><br>
-Deze website is gemaakt voor het Front-End Block!
+# Team 2: Concepten
+De website: [https://aiddei.github.io/medialab2/](https://aiddei.github.io/Medialab2/)
