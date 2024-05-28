@@ -365,6 +365,11 @@ footer {
     cursor: pointer;
 }
 
+.anchor-offset {
+    padding-top: 1px;
+    margin-top: -1px;
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
     .modal-content {
