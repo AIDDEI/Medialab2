@@ -1,189 +1,161 @@
 <!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team 2: Concepten</title>
 
-        <title>Team 2: Concepten</title>
+    <link rel="stylesheet" type="text/css" href="css/styleNew.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="icon" href="img/icon.png" />
 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-        <link rel="icon" href="img/icon.png">
+    <script type="text/javascript" src="js/script.js" defer></script>
+  </head>
 
-        <script type="text/javascript" src="js/script.js" defer></script>
-    </head>
+  <body>
+    <div class="header">
+      <div class="fade">
+        <h1 class="atma-bold">Team 2</h1>
+        <p class="atma-bold">Veiligheidsregio Rotterdam-Rijnmond</p>
+      </div>
+    </div>
+    <div class="wrapperMain">
+      <div class="">
+        <h1 class="atma-semibold">Wie zijn wij?</h1>
+        <h2>Ons team</h2>
+        <p>
+          Ons team bestaat uit zes studenten van de Hogeschool Rotterdam. Vier
+          van ons, Evelin, Kelly, Quinty en Rachem, studeren Communicatie en
+          Multimedia Design (CMD). De andere twee, Aiden en Diego, volgen de
+          opleiding Creative Media and Game Technologies (CMGT). Binnen ons team
+          heeft iedereen een specifieke rol:
+        </p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <i id="left" class="fa-solid fas fa-angle-left"></i>
+      <ul class="carousel">
+        <li class="card">
+          <div class="img">
+            <img src="img/br1.jpg" alt="" draggable="false" />
+          </div>
+          <h2 class="atma-semibold">Naam</h2>
+          <span>roll - studentennummer</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/br1.jpg" alt="" draggable="false" />
+          </div>
+          <h2 class="atma-semibold">Naam</h2>
+          <span>roll - studentennummer</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/br1.jpg" alt="" draggable="false" />
+          </div>
+          <h2 class="atma-semibold">Naam</h2>
+          <span>roll - studentennummer</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/br1.jpg" alt="" draggable="false" />
+          </div>
+          <h2 class="atma-semibold">Naam</h2>
+          <span>roll - studentennummer</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/br1.jpg" alt="" draggable="false" />
+          </div>
+          <h2 class="atma-semibold">Naam</h2>
+          <span>roll - studentennummer</span>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/br1.jpg" alt="" draggable="false" />
+          </div>
+          <h2 class="atma-semibold">Naam</h2>
+          <span>roll - studentennummer</span>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fas fa-angle-right"></i>
+    </div>
+    <div class="main">
+      <div class="tab">
+        <button
+          class="tablinks"
+          onclick="openCity(event, 'London')"
+          id="defaultOpen"
+        >
+          London
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">
+          Paris
+        </button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+          Tokyo
+        </button>
+      </div>
 
-    <body>
-        <header>
-            <h1>Team 2</h1>
-        </header>
+      <!-- Tab content -->
+      <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
 
-        <nav>
-            <div><a href="#mission">Het team</a></div>
-            <div><a href="#research">Calamity Consult</a></div>
-            <div><a href="#prototype">Emergency Eye</a></div>
-            <div><a href="#game">ReadyKids</a></div>
-        </nav>
+      <div id="Paris" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
 
-        <h2>Welkom!</h2>
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </div>
+    <!-- <hr />
 
-        <section class="text">
-            <p>Welkom op deze one-pager van team 2!</p>
-            <p>Op deze website kan je het volgende lezen over ons project:</p>
-            <ul>
-                <li>Het Team: wie zijn wij en wat hebben we gedaan?</li>
-                <li>Het eerste concept: Calamity Consult</li>
-                <li>Het tweede concept: Emergency Eye</li>
-                <li>Het derde concept: ReadyKids</li>
-            </ul>
-        </section>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
 
-        <hr>
-
-        <section class="title anchor-offset" id="mission">
-            <h3>Het team</h3>
-        </section>
-
-        <section class="text">
-            <p>
-                Ons team bestaat uit zes studenten van de Hogeschool Rotterdam. Vier studenten hiervan zijn studenten van de opleiding
-                CMD, namelijk Evelin, Kelly, Quinty en Rachem. De overige twee studenten, Aiden en Diego, komen van de opleiding
-                CMGT. Binnen ons team heeft ook iedereen een eigen taak:
-            </p>
-            <ul>
-                <li>Aiden: Back-end Developer</li>
-                <li>Diego: Front-end Developer</li>
-                <li>Evelin: UX/UI Designer</li>
-                <li>Kelly: Visual Designer</li>
-                <li>Quinty: Researcher</li>
-                <li>Rachem: UX Designer</li>
-            </ul>
-            <h4>Onderzoek</h4>
-            <p>
-                Voordat we ons onderzoek zijn begonnen, hebben we een ontwerpvraag opgesteld. Deze is dichtbij de vraag gebleven
-                die wij als hoofdvraag voor het project hadden gekregen. De vraag is als volgt:
-            </p>
-            <p>
-                "Hoe kunnen we het beste burgers betrekken en voorzien van handelingsperspectief?"
-            </p>
-            <p>
-                Aan de hand van deze vraag zijn we als team desk research gaan doen. Hierdoor zijn we op onze ontwerprichtlijnen
-                gekomen:
-            </p>
-            <div class="prototypeGallery">
-                <img src="img/ont1.png" alt="Eerste ontwerprichtlijn">
-                <img src="img/ont2.png" alt="Tweede ontwerprichtlijn">
-                <img src="img/ont3.png" alt="Derde ontwerprichtlijn">
-            </div>
-            <p>
-                Daarna zijn we aan de slag gegaan met een brainstorm om op concepten te komen. Hiervoor hebben we een negatieve
-                brainstorm gedaan. Dit houdt in dat we de ontwerpvraag hebben omgedraaid, dus hoe we zoveel mogelijk burgerslachtoffers
-                kunnen veroorzaken.
-            </p>
-            <div class="prototypeGallery">
-                <img src="img/br1.jpg" alt="brainstorm1">
-                <img src="img/br2.jpg" alt="brainstorm2">
-            </div>
-            <p>
-                Deze uiteindelijke ideeën hebben we weer omgedraaid, waardoor we op de volgende drie concepten zijn gekomen.
-            </p>
-        </section>
-
-        <section class="title anchor-offset" id="research">
-            <h3>Calamity Consult</h3>
-        </section>
-
-        <section class="text">
-            <p>Onze eerste concept is Calamity Consult!</p>
-            <div class="prototypeGallery">
-                <img src="img/cc1.png" alt="Wireframe van Calamity Consult 1">
-                <img src="img/cc2.png" alt="Wireframe van Calamity Consult 2">
-            </div>
-            <p>
-                Calamity Consult is een app waarin mensen uit eigen initiatief  zich kunnen inlezen in bepaalde soorten calamiteiten. 
-                Je kan kiezen tussen verschillende soorten calamiteiten waar je geïnteresseerd in bent zoals: brand, overstromingen, 
-                EHBO, gaslek, overdosis en nog meer die later zullen worden toegevoegd.
-            </p>
-            <p>
-                Als je een van de calamiteiten hebt gekozen krijg je een korte beschrijving van wat het inhoud en wat er allemaal bij
-                komt kijken. Daaronder staan dan kopjes met veel voorkomende dingen en hoe je in die situaties het beste kan handelen.
-            </p>
-        </section>
-
-        <section class="title anchor-offset" id="prototype">
-            <h3>EmergencyEye</h3>
-        </section>
-
-        <section class="text">
-            <p>
-                Dan zijn we aangekomen bij ons tweede concept, namelijk EmergencyEye! Want tegenwoordig maakt iedereen al foto's en 
-                video's als er iets aan de hand is. Deze foto's en video's kunnen beter worden gebruikt als hulp dan voor de likes en 
-                volgers.
-            </p>
-            <div class="prototypeGallery">
-                <img src="img/EE1.png" alt="Wireframe van EmergencyEye 1">
-                <img src="img/ee2.png" alt="Wireframe van EmergencyEye 2">
-                <img src="img/ee3.png" alt="Wireframe van EmergencyEye 3">
-            </div>
-            <p>
-                EmergencyEye is een app waarbij men op een gemakkelijke manier foto's en video's kan verzenden naar de hulpverleners. 
-                Hierdoor kunnen de hulpverleners de beelden gemakkelijk bekijken en een goed beeld vormen van de situatie. Men kan 
-                ervoor kiezen om al gemaakte foto's en/of video's te uploaden en te versturen of via de app foto's en video's te maken. 
-                Aan de foto's en/of video's moet nog wel een locatie worden toegevoegd. Dit kan de huidige locatie zijn van het apparaat
-                of er kan handmatig een locatie ingevuld worden. Daarna kan het beeldmateriaal gemakkelijk worden verstuurd aan de hand 
-                van de 'versturen' knop. 
-            </p>
-            <p>
-                Om ervoor te zorgen dat er ook echt alleen beeldmateriaal van noodsituaties binnenkomt en geen 
-                onzin, wordt er gebruik gemaakt van een AI die de niet nuttige beelden eruit haalt.
-            </p>
-        </section>
-
-        <section class="title anchor-offset" id="game">
-            <h3>ReadyKids</h3>
-        </section>
-
-        <section class="text">
-            <p>
-                Dan zijn we aangekomen bij ons laatste concept: ReadyKids!
-            </p>
-            <div class="prototypeGallery">
-                <img src="img/rk1.png" alt="Wireframe van ReadyKids">
-            </div>
-            <p>
-                ReadyKids richt zich op kinderen die voor het eerst alleen thuis worden gelaten. Hoe kunnen we ze beter voorbereiden 
-                op noodsituaties en hoe kunnen ze het beste handelen wanneer dit gebeurt?
-            </p>
-            <p>
-                We willen deze informatie graag overbrengen via een video, app, gastlessen, interactieve website, comic strips, 
-                podcasts, animatievideo's en workshops op scholen.
-            </p>
-            <p>
-                Onze voorkeur ligt bij dit laatste concept! Vanuit de presentatie hebben we begrepen dat jullie dit ook vinden,
-                dus we gaan hier zeker verder mee!
-            </p>
-        </section>
-
-        <hr>
-
-        <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
-            <div id="caption"></div>
+    <footer>
+      <p>
+        Deze website is gemaakt door Aiden Deighton, student Creative Media &
+        Game Technologies aan de Hogeschool Rotterdam.
+      </p>
+      <div class="socials">
+        <div><a href="mailto:1025660@hr.nl">E-mail</a></div>
+        <div>
+          <a href="https://www.instagram.com/aiddei/" target="_blank"
+            >Instagram</a
+          >
         </div>
-
-        <footer>
-            <p>Deze website is gemaakt door Aiden Deighton, student Creative Media & Game Technologies aan de Hogeschool Rotterdam.</p>
-            <div class="socials">
-                <div><a href="mailto:1025660@hr.nl">E-mail</a></div>
-                <div><a href="https://www.instagram.com/aiddei/" target="_blank">Instagram</a></div>
-                <div><a href="https://nl.linkedin.com/in/aiden-deighton-081669234?trk=people-guest_people_search-card" target="_blank">LinkedIn</a></div>
-                <div><a href="https://github.com/AIDDEI/" target="_blank">GitHub</a></div>
-            </div>
-            <p id="copyright">© 2024 - Aiden Deighton</p>
-        </footer>
-    </body>
-
+        <div>
+          <a
+            href="https://nl.linkedin.com/in/aiden-deighton-081669234?trk=people-guest_people_search-card"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+        <div>
+          <a href="https://github.com/AIDDEI/" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <p id="copyright">© 2024 - Aiden Deighton</p>
+    </footer> -->
+  </body>
 </html>
