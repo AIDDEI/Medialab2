@@ -9,7 +9,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 0 35px;
   background: #bbbe9e;
 }
 
@@ -23,6 +22,10 @@ body {
   font-family: "Atma", system-ui;
   font-weight: 700;
   font-style: normal;
+}
+
+.font-size30 {
+  font-size: 30px;
 }
 
 .header {
@@ -50,6 +53,14 @@ body {
 .header h1 {
   font-size: 128px;
   margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
 }
 
 .wrapperMain {
@@ -180,7 +191,7 @@ body {
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: #dfe795;
-  margin-right: 5px;
+  margin-right: 20px;
   float: left;
   border: none;
   outline: none;
@@ -207,4 +218,8 @@ body {
   display: none;
   padding: 6px 12px;
   border-radius: 0 10px 10px 10px;
+}
+
+.tabWrapper {
+  margin-bottom: 20px;
 }
