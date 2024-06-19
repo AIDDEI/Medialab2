@@ -244,3 +244,11 @@ body {
 img {
   max-width: 100%;
 }
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexRow img {
+  width: 50%;
+}
