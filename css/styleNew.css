@@ -1,6 +1,12 @@
 html,
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
 }
 
 body {
@@ -61,6 +67,16 @@ body {
   justify-content: center;
   align-items: center;
   width: 80vw;
+}
+
+.wrapperImg {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.wrapperImg * {
+  align-self: center;
 }
 
 .wrapperMain {
@@ -141,6 +157,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: #eaeec6;
 }
 
 .card .img {
@@ -222,4 +239,8 @@ body {
 
 .tabWrapper {
   margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
 }
